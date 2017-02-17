@@ -1,10 +1,10 @@
 {
-  "name": "atom-marktron-dark",
+  "name": "marktron-dark",
   "theme": "ui",
   "version": "0.0.1",
   "description": "A dark UI theme for Atom",
   "license": "MIT",
-  "repository": "https://github.com/marktron/atom-marktron-dark",
+  "repository": "https://github.com/marktron/marktron-dark",
   "engines": {
     "atom": ">0.40.0"
   }

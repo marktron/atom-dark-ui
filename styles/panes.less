@@ -6,20 +6,16 @@
 
 atom-pane-container {
   atom-pane {
-    background-color: lighten(@app-background-color, 4%);
-
-    &:focus {
-      background-color: @app-background-color;
-    }
+    background-color: @app-background-color;
   }
 
   atom-pane-axis.horizontal > * {
-    border-right: 1px solid @pane-item-border-color;
+    border-right: 3px solid @base02;
     &:last-child { border-right: none; }
   }
 
   atom-pane-axis.vertical > * {
-    border-bottom: 1px solid @pane-item-border-color;
+    border-bottom: 3px solid @base02;
     &:last-child { border-bottom: none; }
   }
 }

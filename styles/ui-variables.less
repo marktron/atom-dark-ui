@@ -43,8 +43,8 @@
 
 @app-background-color: @base01;
 
-@base-background-color: lighten(@tool-panel-background-color, 5%);
-@base-border-color: rgba(0, 0, 0, 0.5);
+@base-background-color: @base01;
+@base-border-color: @base01;
 
 @pane-item-background-color: @base-background-color;
 @pane-item-border-color: rgba(0, 0, 0, 0.5);
@@ -52,7 +52,7 @@
 @input-background-color: #212224;
 @input-border-color: @base-border-color;
 
-@tool-panel-background-color: #1d1f21;
+@tool-panel-background-color: @base01;
 @tool-panel-border-color: @base-border-color;
 
 @inset-panel-background-color: #161719;
@@ -69,16 +69,16 @@
 @button-background-color-selected: @base01;
 @button-border-color: @base-border-color;
 
-@tab-bar-background-color: @base00;
+@tab-bar-background-color: @base01;
 @tab-bar-border-color: darken(@tab-background-color-active, 10%);
-@tab-background-color: @base00;
-@tab-background-color-active: @base02;
-@tab-border-color: @base02;
+@tab-background-color: @base01;
+@tab-background-color-active: @base00;
+@tab-border-color: @base00;
 
-@tree-view-background-color: @base01;
+@tree-view-background-color: fade(@base01,50%);
 @tree-view-border-color: @tool-panel-border-color;
 
-@scrollbar-background-color: @base02; // Needs to be opaque -> atom/atom/issues/4578
+@scrollbar-background-color: @base03; // Needs to be opaque -> atom/atom/issues/4578
 @scrollbar-color: rgba(92, 92, 92, 0.5);
 
 @ui-site-color-1: @background-color-success; // green
